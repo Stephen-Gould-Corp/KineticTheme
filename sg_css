@@ -1,0 +1,665 @@
+:root{
+  /*Primary Colors*/
+  --sg-blue: rgba(8, 42, 64, 0.95);
+  --sg-orange: #F14E1B;
+  --light-tan: #FAFAF6;
+  --dark-tan: #F2F2EC;
+
+  /*Secondary Colors*/
+  --light-orange: #EFA184;
+  --dark-orange: #BE4623;
+  --light-blue: #81BDE1;
+  --medium-blue: #3E709E;
+  --light-gray: #C6C6C6;
+  --medium-gray: #8E8E8E;
+  --dark-gray: #454545;
+
+  /*Other Colors*/
+  --disabled: #F2F3F4;
+  --ep-medium-gray: #444444;
+
+  /*Company Logos*/
+  --company-logo: url("https://az-epicor-dev02.stephengould.com/EpicorKineticGold/Apps/ERP/Home/assets/img/SG_logo_RGB_full.png");
+
+  --company-logo-white: url("https://az-epicor-dev02.stephengould.com/EpicorKineticGold/Apps/ERP/Home/assets/img/SG_logo_RGB_full_white.png");
+}
+
+div.ep-menu-bar-container {
+  background-color: var(--sg-blue);
+}
+
+.ep-loading-progress.ep-loading-progress-stripe span{
+  background: linear-gradient(135deg,var(--sg-orange) 25%,var(--sg-orange) 25%,var(--sg-orange) 50%,var(--light-orange) 50%,var(--light-orange) 75%,var(--sg-orange) 75%,var(--sg-orange) 100%);
+  background-size: 12px 12px;
+  height: 5px;
+}
+
+ep-tab-strip-nav{
+  background-color: var(--dark-tan);
+}
+
+div svg path {
+  border-style: none;
+  border-color: var(--sg-orange);
+}
+
+div.ep-view-content {
+  background-color: var(--light-tan);
+}
+
+div.ep-box-grid-container {
+  background-color: var(--light-tan);
+}
+
+div.ng-star-inserted.ep-view-fixed-header {
+  background-color: var(--dark-tan);
+}
+
+div.khp-tile-text-content {
+  color: var(--sg-orange);
+}
+
+#ep-view-title {
+  color: var(--medium-blue);
+}
+
+span.ep-indicator-text.ng-star-inserted {
+  background-color: var(--light-blue);
+  color: var(--sg-blue);
+}
+
+div.ep-content.ng-star-inserted {
+  background-color: var(--dark-tan);
+}
+
+span.ng-tns-c200-7.k-link {
+  background-color: var(--dark-tan);
+  color: var(--sg-blue);
+}
+
+
+#svgRoot.ep-svg-color svg {
+    fill: white;
+}
+
+ul.k-reset.k-tabstrip-items.ng-tns-c213-8 {
+  background-color: var(--light-tan);
+  
+}
+
+span.k-icon.k-panelbar-toggle.ng-tns-c200-9.k-i-chevron-up.k-panelbar-collapse.ng-star-inserted {
+  color: var(--sg-blue);
+}
+
+div.ep-shell-menu-panel-content {
+  background-color: var(--light-tan);
+}
+
+div.ep-component-top-element.ep-shell-panel-header {
+  background-color: var(--light-tan);
+}
+
+div.ep-shell-menu-secondary-panel.ng-star-inserted {
+  background-color: var(--light-tan);
+}
+
+/*kendo-floatinglabel.k-floating-label-container {
+  background-color: var(--dark-tan);
+}*/
+
+kendo-dropdownlist.k-picker-md.k-rounded-md.k-picker-solid.k-dropdownlist.k-picker.ng-untouched.ng-pristine.ng-valid.ng-star-inserted {
+  background-color: var(--dark-tan);
+}
+
+span.ng-tns-c200-11.k-link {
+  color: var(--dark-tan);
+  background-color: var(--sg-blue);
+}
+
+ul.k-reset.k-tabstrip-items.ng-tns-c213-12 {
+  background-color: var(--light-tan);
+}
+
+span.ng-tns-c200-23.k-link {
+  background-color: var(--sg-blue);
+}
+
+span.ng-tns-c200-24.k-link {
+  background-color: var(--sg-blue);
+}
+
+li.ng-tns-c213-12.k-item.k-state-default.k-active.ng-star-inserted {
+  background-color: var(--sg-orange);
+  border-style: solid;
+}
+
+ul.k-treeview-lines.ng-tns-c107-13.k-treeview-group.ng-star-inserted {
+  background-color: var(--light-tan);
+}
+
+div.ep-tree-nav-side-left.ng-star-inserted {
+  background-color: var(--light-tan);
+}
+
+kendo-splitter-pane.left-splitter-padding.k-pane-static.k-pane.k-scrollable.ng-star-inserted {
+  background-color: var(--light-tan);
+}
+
+
+button.ep-button.ep-primary {
+  background-color: var(--sg-orange);
+}
+
+.ep-dropdown-display:hover{
+  background-color: var(--sg-orange);
+}
+
+button.ep-button.ep-primary.ep-disabled {
+  background-color: var(--medium-gray);
+  color: var(--dark-gray);
+}
+
+EpSvgIcon314.ep-svg-color {
+  background-color: var(--dark-tan);
+}
+
+.ep-menu-bar .ep-menu-bar-section li.ep-menu-bar-item ep-svg-icon:hover{
+  background-color: var(--sg-orange);
+}
+
+.ep-menu-bar .ep-menu-bar-section li.ep-menu-bar-item ep-svg-icon:s{
+  background-color: var(--sg-orange);
+}
+
+.ep-menu-bar .ep-menu-bar-section li.ep-menu-bar-item.active #svgRoot.ep-svg-color svg, .ep-menu-bar .ep-menu-bar-section li.ep-menu-bar-item:active #svgRoot.ep-svg-color svg
+{
+  fill: var(--sg-orange);
+  background-color: var(--dark-tan);
+}
+
+.ep-menu-bar .ep-menu-bar-section li.ep-menu-bar-item.hover #svgRoot.ep-svg-color svg, .ep-menu-bar .ep-menu-bar-section li.ep-menu-bar-item:hover #svgRoot.ep-svg-color svg
+{
+  fill: var(--sg-blue);
+  background-color: var(--sg-orange);
+}
+
+.ep-menu-bar .ep-menu-bar-section li.ep-menu-bar-item.active, .ep-menu-bar .ep-menu-bar-section li.ep-menu-bar-item:active
+{
+  background-color: var(--dark-tan);
+}
+
+.k-tabstrip>.k-tabstrip-items-wrapper>.k-tabstrip-items .k-item:hover 
+{
+  background-color: var(--sg-blue);
+  color: white;
+}
+
+
+ep-tab-strip-nav>div>ep-tab-strip>.ep-tab-strip>.k-tabstrip>.k-tabstrip-items-wrapper>.k-tabstrip-items .k-item.k-active
+{
+  background-color: var(--sg-orange);
+}
+
+
+ep-tab-strip-nav>div>ep-tab-strip>.ep-tab-strip>.k-tabstrip>.k-tabstrip-items-wrapper>.k-tabstrip-items .k-item
+{
+  background-color: var(--sg-blue);
+  color: white;
+}
+
+ep-panel-card .ep-panel-card .k-panelbar>.ep-panelbar-item.k-panelbar-header>.k-link {
+  background-color: var(--sg-blue);
+  color: white;
+}
+
+.ep-grid .k-grid .k-header,
+.ep-grid .k-grid.chrome .k-grid-header,
+.ep-grid .k-grid .k-grid-header-wrap,
+.k-grid-header table {
+  background-color: var(--light-blue);
+}
+
+ep-panel-card .ep-panel-card .k-panelbar>.ep-panelbar-item.k-panelbar-header>.k-link .ep-check-box {
+  color: white;
+}
+
+kendo-combobox.k-input-md.k-rounded-md.k-input-solid.k-combobox.k-input.ng-untouched.ng-pristine.ng-valid.ng-star-inserted {
+  background-color: var(--light-tan);
+  color: black;
+}
+
+
+
+input.k-textbox.k-input.k-input-md.k-rounded-md.k-input-solid.ng-pristine.ng-valid.ng-touched {
+  background-color: var(--light-tan);
+  color: black;
+}
+
+.ep-date-input .k-floating-label-container, 
+.ep-date-picker .k-floating-label-container, 
+.ep-combo-box .k-floating-label-container, 
+.ep-dropdown .k-floating-label-container, 
+.ep-numeric-box .k-floating-label-container, 
+.ep-text-box .k-floating-label-container, 
+.ep-masked-text-box .k-floating-label-container, 
+.ep-autocomplete-input .k-floating-label-container, 
+.ep-time-picker .k-floating-label-container, 
+.ep-color-picker .k-floating-label-container
+,
+.ep-numeric-box .k-input-inner{
+  background-color: var(--light-tan);
+}
+
+
+
+span.ep-treeview-item-node-text {
+  color: black;
+}
+
+input::selection{
+  background-color: var(--sg-orange);
+  color: white;
+}
+
+button.ep-button.ep-btn-size-small.ep-ripple-effect.ep-secondary {
+  background-color: var(--sg-orange);
+  color: white;
+}
+
+.k-menu-popup .k-menu-group{
+  background-color: var(--dark-tan);
+}
+
+.ep-context-menu.ep-popup-menu, .ep-dropdown-menu.ep-popup-menu, .ep-dropdown-menu-open kendo-popup, .ep-context-menu.ep-popup-menu~kendo-popup{
+  background-color: var(--dark-tan);
+}
+
+.ep-shell-panel-header{
+  padding: 0px;
+}
+
+.ep-panel-logo{
+  height: 100px;
+}
+
+img.ep-logo{
+  object-fit: contain;
+  content: var(--company-logo);
+}
+
+img.ep-logo-white{
+  object-fit: contain;
+  content: var(--company-logo-white);
+}
+
+span.mdi.mdi-star {
+  color: var(--sg-orange);
+}
+
+.ep-context-menu.ep-popup-menu div.k-popup.k-menu-popup::-webkit-scrollbar-track, .ep-dropdown-menu.ep-popup-menu div.k-popup.k-menu-popup::-webkit-scrollbar-track, .ep-dropdown-menu-open kendo-popup div.k-popup.k-menu-popup::-webkit-scrollbar-track, .ep-context-menu.ep-popup-menu~kendo-popup div.k-popup.k-menu-popup::-webkit-scrollbar-track{
+  background-color: var(--dark-tan);
+}
+
+ep-panel-card .ep-panel-card .k-panelbar>.ep-panelbar-item.k-panelbar-header>.k-link .ep-panelcard-header-buttons .ep-dropdown-icon{
+  color: white;
+}
+
+
+
+.ep-sidebar .ep-pinned-allow, 
+.ep-sidebar .ep-pinned-close-btn, 
+.ep-sidebar .ep-close-btn {
+  color: var(--sg-orange);
+}
+
+ul.k-reset.k-tabstrip-items {
+  background-color: var(--light-tan);
+}
+
+.ep-component-top-element .k-input-spinner .k-icon, 
+.ep-component-top-element .k-input-button .k-button-icon, 
+.ep-component-top-element .k-chip-action .k-icon, 
+.ep-component-top-element .k-select .k-icon, 
+.ep-component-top-element .ep-search-icon, 
+.ep-component-top-element .ep-custom-action-icon, 
+.ep-component-top-element .k-clear-value {
+  color: var(--sg-orange);
+}
+
+::-webkit-scrollbar-thumb{
+  border-width: 0;
+  background-color: white;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  border-width: 0;
+  background-color: var(--light-orange);
+}
+
+::-webkit-scrollbar{
+  border-width: 0;
+  height: 10px;
+}
+
+::-webkit-scrollbar:hover{
+  border-width: 0;
+  height: 10px;
+}
+
+.ep-disabled .ep-date-input .k-floating-label-container, .ep-disabled .ep-date-picker .k-floating-label-container,
+.ep-disabled .ep-numeric-box .k-input-inner,
+.ep-disabled .ep-numeric-box .k-floating-label-container,
+.ep-disabled .ep-text-box .k-input, 
+.ep-disabled .ep-text-box .k-input-inner, 
+.ep-disabled .ep-masked-text-box .k-input, 
+.ep-disabled .ep-masked-text-box .k-input-inner, 
+.ep-disabled .ep-autocomplete-input .k-input, 
+.ep-disabled .ep-autocomplete-input .k-input-inner, 
+.ep-disabled .ep-time-picker .k-input, 
+.ep-disabled .ep-time-picker .k-input-inner, 
+.ep-disabled .ep-search-chip-selection .k-input, 
+.ep-disabled .ep-search-chip-selection .k-input-inner, 
+.ep-disabled .ep-dropdown .k-input, 
+.ep-disabled .ep-dropdown .k-input-inner, 
+.ep-disabled .ep-combo-box .k-input, 
+.ep-disabled .ep-combo-box .k-input-inner, 
+.ep-disabled .ep-combo-box.k-floating-label-container.k-combobox .k-input, 
+.ep-disabled .ep-combo-box.k-floating-label-container.k-combobox .k-input-inner
+{
+  background-color: var(--disabled);
+}
+
+ep-panel-card .ep-panel-card .ep-footer{
+  background-color: var(--dark-tan);
+}
+
+/*
+input.k-textbox.k-input.k-input-md.k-rounded-md.k-input-solid.ng-untouched.ng-pristine {
+  background-color: var(--light-tan);
+  color: black;
+}
+
+input.k-textbox.k-input.k-input-md.k-rounded-md.k-input-solid.ng-untouched.ng-pristine.ng-valid {
+  background-color: var(--light-tan);
+  color: black;
+}*/div.ep-shell-panel-default-content {
+  background-color: var(--light-tan);
+  
+}div.ep-base-sliding-panel-header.ng-star-inserted {
+  background-color: var(--dark-tan);
+  color: var(--medium-blue);
+}
+
+
+div.ep-base-sliding-panel-footer.ng-star-inserted {
+  background-color: var(--light-tan);
+}
+
+div.ep-user-details.ng-star-inserted {
+  background-color: var(--light-tan);
+  
+}
+
+div.ep-shell-panel-extension-content {
+  background-color: var(--light-tan);
+}
+
+div.ep-content {
+  background-color: var(--light-tan);
+}
+
+ep-shell-panel-header.ep-component {
+  background-color: var(--light-tan);
+}
+
+div.ep-component-top-element.ep-shell-panel-content.ep-shell-panel-extended {
+  background-color: var(--light-tan);
+}
+
+div.ep-panel-logo {
+  background-color: var(--light-tan);
+  
+}
+
+ep-tab-strip-nav>div>ep-tab-strip>.ep-tab-strip>.k-tabstrip>.k-tabstrip-items-wrapper>.k-tabstrip-items{
+  background-color: var(--dark-tan);
+}
+
+.k-splitter-flex .k-splitbar {
+  background-color: var(--light-orange);
+}
+
+metafx-widget-container[root=metafx-page][flexlayout=true]>div{
+  background-color: var(--dark-tan);
+}
+
+.ep-check-box[_ngcontent-beh-c572] input[type=radio][_ngcontent-beh-c572], .ep-check-box[_ngcontent-beh-c572] input[type=checkbox][_ngcontent-beh-c572]{
+  background-color: var(--sg-orange);
+}
+
+.ep-grid .k-grid tbody tr:hover{  
+  background-color: var(--light-orange);
+}
+
+/* BAQ Designer*/
+.ep-studio-designer .ep-menu-bar-container{
+  background-color: var(--sg-orange);
+}
+.ep-studio-designer .ep-menu-bar .ep-menu-bar-section li.ep-menu-bar-item ep-svg-icon:hover{
+  background-color: var(--sg-blue);
+}
+
+.ep-studio-designer .ep-menu-bar .ep-menu-bar-section li.ep-menu-bar-item ep-svg-icon:s{
+  background-color: var(--sg-blue);
+}
+
+.ep-studio-designer .ep-menu-bar .ep-menu-bar-section li.ep-menu-bar-item.active #svgRoot.ep-svg-color svg, 
+.ep-studio-designer .ep-menu-bar .ep-menu-bar-section li.ep-menu-bar-item:active #svgRoot.ep-svg-color svg
+{
+  fill: var(--sg-orange);
+}
+
+.ep-studio-designer .ep-menu-bar .ep-menu-bar-section li.ep-menu-bar-item.hover #svgRoot.ep-svg-color svg,.ep-studio-designer .ep-menu-bar .ep-menu-bar-section li.ep-menu-bar-item:hover #svgRoot.ep-svg-color svg
+{
+  fill: var(--sg-orange);
+  background-color: var(--sg-blue);
+}
+
+.ep-studio-problems .ep-panel-card-grid .ep-panel-card .ep-grid .k-grid, .ep-studio-problems .ep-panel-card-grid .ep-panel-card .ep-grid .k-grid-content{
+  background-color: var(--light-tan);
+}
+
+.k-button.ep-toggle.k-selected{
+  background-color: var(--sg-orange);
+  border-color: var(--sg-orange);
+}
+
+.k-button.ep-toggle{
+  border-color: var(--sg-orange);
+}
+
+.ep-studio-designer-header-panel{
+  background-color: var(--dark-tan);
+}
+
+.erp-baq-query-designer{
+  background-color: var(--dark-tan);
+}
+
+.ep-diagram .dhx_diagram{
+  background-color: var(--light-tan);
+}
+
+.ep-query-properties{
+  background-color: var(--dark-tan);
+}
+
+.ep-studio-designer .ep-studio-menu-panel .ep-shell-panel-content{
+  background-color: var(--dark-tan);
+}
+
+.ep-studio-designer .ep-studio-menu-panel{
+  background-color: var(--dark-tan);
+  color: var(--sg-blue);
+}
+
+.ep-studio-header-bar .header-bar-container{
+  background-color: var(--light-tan);
+}
+
+.ep-studio-header-bar .header-bar-container .studio-header-left-crumb .ep-crumb-bar .breadcrumb .breadcrumb-item{
+  color: var(--sg-orange);
+}
+
+.baq-query-results-container{
+  background-color: var(--light-tan);
+}
+
+/*End BAQ Designer*/
+
+/*App Studio Designer*/
+.app-studio-designer .ep-menu-bar-container{
+  background-color: var(--sg-orange);
+}
+.app-studio-designer .ep-menu-bar .ep-menu-bar-section li.ep-menu-bar-item ep-svg-icon:hover{
+  background-color: var(--sg-blue);
+}
+
+.app-studio-designer .ep-menu-bar .ep-menu-bar-section li.ep-menu-bar-item ep-svg-icon:s{
+  background-color: var(--sg-blue);
+}
+
+.app-studio-designer .ep-menu-bar .ep-menu-bar-section li.ep-menu-bar-item.active #svgRoot.ep-svg-color svg, 
+.app-studio-designer .ep-menu-bar .ep-menu-bar-section li.ep-menu-bar-item:active #svgRoot.ep-svg-color svg
+{
+  fill: var(--sg-orange);
+}
+
+.app-studio-designer .ep-menu-bar .ep-menu-bar-section li.ep-menu-bar-item.hover #svgRoot.ep-svg-color svg,.app-studio-designer .ep-menu-bar .ep-menu-bar-section li.ep-menu-bar-item:hover #svgRoot.ep-svg-color svg
+{
+  fill: var(--sg-orange);
+  background-color: var(--sg-blue);
+}
+
+.app-studio-problems .ep-panel-card-grid .ep-panel-card .ep-grid .k-grid, .app-studio-problems .ep-panel-card-grid .ep-panel-card .ep-grid .k-grid-content{
+  background-color: var(--light-tan);
+}
+
+.app-studio-designer-header-panel{
+  background-color: var(--dark-tan);
+}
+
+.app-studio-designer .app-studio-menu-panel .ep-shell-panel-content{
+  background-color: var(--dark-tan);
+}
+
+.app-studio-designer .app-studio-menu-panel{
+  background-color: var(--dark-tan);
+  color: var(--sg-blue);
+}
+
+.app-studio-header-bar .header-bar-container{
+  background-color: var(--light-tan);
+}
+
+.app-studio-header-bar .header-bar-container .studio-header-left-crumb .ep-crumb-bar .breadcrumb .breadcrumb-item{
+  color: var(--sg-orange);
+}
+
+.app-studio-designer .ep-metafx-ide-menu-panel .ep-treeview-item-node-iconclass{
+  color: var(--sg-blue);
+}
+
+.app-studio-designer .ep-metafx-ide-menu-panel .ep-shell-panel-content{
+  background-color: var(--dark-tan);
+}
+
+.app-studio-designer .ep-metafx-ide-menu-panel{
+  background-color: var(--dark-tan);
+  color: var(--sg-blue);
+}
+
+.app-studio-designer .propertiesTab .patch-icon .ep-button.ep-primary .mdi{
+  color: white;
+}
+
+/*.app-studio-designer .ep-metafx-ide-tabstrip .ide-tabs>.ep-tab-strip>.k-tabstrip .k-content,
+.app-studio-designer .grid-panel-layout .grid-panel-view-container .grid-panel-header, .app-studio-designer .topBar{
+  background-color: var(--dark-tan);
+}*/
+
+
+.app-studio-designer .grid-panel-layout .grid-panel-view-container .parent-tab-component kendo-tabstrip .k-tabstrip-items .k-item.k-active{
+  background-color: var(--sg-orange);
+  color: var(--sg-blue);
+}
+
+.app-studio-designer p.preview-badge {
+  background-color: var(--dark-tan);
+}
+
+.app-studio-designer ul.k-reset.k-tabstrip-items {
+  background-color: var(--dark-gray);
+}
+
+.app-studio-designer .ep-disabled .ep-text-box .k-input{
+  background-color: transparent;
+}
+
+.ep-metafx-ide-tabstrip .ide-tabs>.ep-tab-strip>.k-tabstrip>.k-tabstrip-items-wrapper>.k-tabstrip-items{
+  background-color: var(--dark-tan)
+}
+
+.app-studio-designer .designer-layout .ep-splitter .designer-layout-frame .designer-wrapper {
+  background-color: var(--light-tan);
+}
+
+.app-studio-designer .ep-dropdown>.k-dropdownlist, .ep-dropdown>.k-combobox, .ep-dropdown>.k-colorpicker, .ep-combo-box>.k-dropdownlist, .ep-combo-box>.k-combobox, .ep-combo-box>.k-colorpicker, .ep-color-picker>.k-dropdownlist, .ep-color-picker>.k-combobox, .ep-color-picker>.k-colorpicker{
+  background-color: var(--ep-medium-gray);
+}
+
+.app-studio-designer kendo-dropdownlist.k-picker-md.k-rounded-md.k-picker-solid.k-dropdownlist.k-picker.ng-untouched.ng-pristine.ng-valid.ng-star-inserted{
+  background-color: var(--ep-medium-gray);
+}
+
+.app-studio-designer .designer-category .designer-category-heading .designer-category-title{
+  color: var(--sg-orange);
+}
+
+.app-studio-designer  .toolbar .ep-toolbar-left .toolbar-item{
+  background-color: var(--sg-orange);
+}
+
+.app-studio-designer .propertiesTab .input-group .k-textarea,
+.app-studio-designer .propertiesTab .input-group .k-textbox,
+.app-studio-designer .propertiesTab .input-group .k-dropdown,
+.app-studio-designer .propertiesTab .input-group .k-numerictextbox,
+.app-studio-designer .propertiesTab .input-group .k-input,
+.app-studio-designer .propertiesTab .input-group .k-input-inner,
+.app-studio-designer .propertiesTab .input-group .k-input-value-text,
+.app-studio-designer .ep-dropdown .k-floating-label-container .k-dropdownlist{
+  background-color: var(--ep-medium-gray);
+}
+
+.app-studio-designer .ep-numeric-box .k-input-inner{
+  background-color: transparent;
+}
+
+.app-studio-designer .grid-panel-layout .grid-panel-view-container .parent-tab-component kendo-tabstrip .k-tabstrip-items .k-link{
+  color: white;
+}
+
+.app-studio-designer .propertiesTab .add-new-item{
+  background-color: var(--sg-orange);
+}
+
+.app-studio-designer ep-panel-card .ep-panel-card .ep-panel-card-body{
+  background-color: var(--dark-tan);
+}
+
+.app-studio-designer .toolbar .ep-toolbar-right .size-info{
+  background-color: var(--sg-orange);
+}
+
+
+/*End App Studio Designer*/
